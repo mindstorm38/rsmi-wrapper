@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "rsmi-wrapper",
+    "rsmi-wrapper-sys"
+]

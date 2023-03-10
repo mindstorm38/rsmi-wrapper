@@ -1,0 +1,14 @@
+[package]
+name = "rsmi-wrapper-sys"
+version = "0.1.0"
+edition = "2021"
+description = "Generated bindings to the ROCm SMI library"
+readme = "README.md"
+keywords = ["amd", "gpu", "managment", "monitoring", "hardware"]
+categories = ["external-ffi-bindings", "hardware-support"]
+exclude = ["include/*"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libloading = "0.7"

@@ -1,0 +1,15 @@
+[package]
+name = "rsmi-wrapper"
+version = "0.1.0"
+edition = "2021"
+description = "A safe and ergonomic Rust wrapper for the ROCm SMI library"
+readme = "../README.md"
+keywords = ["amd", "gpu", "managment", "monitoring", "hardware"]
+categories = ["external-ffi-bindings", "hardware-support"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rsmi-wrapper-sys = { path = "../rsmi-wrapper-sys" }
+libloading = "0.7"
+bitflags = "1.3"
